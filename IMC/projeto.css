@@ -1,0 +1,29 @@
+.contorno-geral{
+    margin-top: 50px;
+    margin-left: 380px;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 3px 4px 4px 4px black;
+    height: 70vh;
+    width: 50vw;
+    background-color: red;
+    
+}
+
+.titulo{
+  margin: 50px;
+  padding: 3px;
+  margin-left: 200px;
+}
+
+.titulo h1{
+    margin: 10px;
+    margin-top: 30px;
+}
+
+.input{
+    margin-left: 80px;
+    height: 50vh;
+    margin-top: 70px;
+  
+
+}
