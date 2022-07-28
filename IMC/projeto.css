@@ -4,15 +4,15 @@
     border-radius: 25px 25px 25px 25px;
     box-shadow: 3px 4px 4px 4px black;
     height: 70vh;
-    width: 50vw;
+    width: 40vw;
     background-color: red;
-    
+       
 }
 
 .titulo{
   margin: 50px;
   padding: 3px;
-  margin-left: 200px;
+  margin-left: 160px;
 }
 
 .titulo h1{
@@ -20,10 +20,159 @@
     margin-top: 30px;
 }
 
-.input{
+.input0{
+
+    display: flex;
+    
+
+}
+
+.input01{
     margin-left: 80px;
     height: 50vh;
-    margin-top: 70px;
-  
+    margin-top: 5px;
+    
+}
 
+input{
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(241, 241, 241);
+    height: 20px;
+    width: 200px;
+}
+
+#res{
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: large;
+    color: antiquewhite;
+ 
+    
+}
+
+#txtn2{
+    width: 40px;
+    height: 30px;
+}
+
+#txtn3{
+    width: 42px;
+    height: 30px;
+}
+
+img{
+   margin-left: 10px;
+   margin-bottom: 40px;
+   
+}
+
+#btn1{
+    margin-left: 50px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(1, 4, 3);
+    color: aliceblue;
+    box-shadow: 1px 1px 3px 1px rgb(6, 51, 36);
+    cursor: pointer;
+    
+
+}
+
+#btn1:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+@media (max-width: 600px) {
+    .contorno-geral{
+        margin-top: 50px;
+        margin-left: 20px;
+        border-radius: 25px 25px 25px 25px;
+        box-shadow: 3px 4px 4px 4px black;
+        height: 40vh;
+        width: 85vw;
+        background-color: red;
+           
+    }
+    
+    .titulo{
+      margin: 50px;
+      padding: 3px;
+      margin-left: 70px;
+    }
+    
+    .titulo h1{
+        margin: 10px;
+        margin-top: 10px;
+        font-size: smaller;
+    }
+    
+    .input0{
+    
+        display: flex;
+        
+    
+    }
+    
+    .input01{
+        margin-left: 10px;
+        height: 50vh;
+        margin-top: 5px;
+        
+    }
+    
+    input{
+        border-radius: 10px 10px 10px 10px;
+        background-color: rgb(241, 241, 241);
+        height: 10px;
+        width: 40px;
+    }
+    
+    #res{
+        margin-top: 10px;
+        margin-left: 50px;
+        font-size: smaller;
+        color: antiquewhite;
+     
+        
+    }
+    
+    #txtn2{
+        width: 20px;
+        height: 10px;
+    }
+    
+    #txtn3{
+        width: 20px;
+        height: 10px;
+    }
+    
+    img{
+       margin-left: 3px;
+       margin-bottom: 40px;
+       height: 200px;
+       width: 150px;
+       
+    }
+    
+    #btn1{
+        margin-left: 50px;
+        height: 20px;
+        width: 50px;
+        background-color: rgb(1, 4, 3);
+        color: aliceblue;
+        box-shadow: 1px 1px 3px 1px rgb(6, 51, 36);
+        cursor: pointer;
+        
+    
+    }
+    
+    #btn1:hover{
+        background-color: aliceblue;
+        color: black;
+    }
+
+    h3{
+        font-size: 10px;
+    }
 }
